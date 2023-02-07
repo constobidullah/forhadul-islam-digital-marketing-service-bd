@@ -1,0 +1,31 @@
+.marketing-agency-parents{
+    background-color: rgb(5, 156, 243);
+    color: white;
+    margin-top: 0px;
+}
+
+.marketing-agency-parents h1{
+    font-size: 45px;
+    margin-bottom: 3px;
+}
+.marketing-agency-parents p{
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.marketing-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 30px;
+    margin-top: 1px;
+}
+
+.marketing-video{
+    border-radius: 5px;
+}
+
+.marketing-details p{
+    text-align: left;
+    margin-top: 10px;
+}
