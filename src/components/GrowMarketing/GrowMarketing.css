@@ -1,0 +1,35 @@
+.grow-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.grow-title-and-details{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.grow-title-and-details h1{
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: Rubik,Helvetica,Arial,"DejaVu Sans","Liberation Sans",Freesans,sans-serif;
+}
+.grow-title-and-details p{
+    font-size: 20px;
+    font-family: Rubik,Helvetica,Arial,"DejaVu Sans","Liberation Sans",Freesans,sans-serif;
+}
+
+.colsultations{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(101, 101, 251);
+    color: whitesmoke;
+}
+
+.grow-image img{
+    width: 700px;
+    height: 400px;
+}
