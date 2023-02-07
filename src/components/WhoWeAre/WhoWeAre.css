@@ -1,0 +1,42 @@
+.who-we-are-parents h1{
+    font-size: 55px;
+    color: rgb(70, 132, 247);
+}
+
+.who-we-are-photo-and-write{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 70px;
+}
+
+.who-we-are-photo img{
+    margin-top: 95px;
+    margin-right: 50px;
+    border-radius: 7px;
+}
+
+.who-we-are-write p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.find-out-more{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(0, 0, 253);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.find-out-more:hover{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color:aquamarine;
+    color: rgb(158, 54, 54);
+    cursor: pointer;
+}
