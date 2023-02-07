@@ -1,0 +1,27 @@
+.memorable-journey-container{
+    background-color: darkslateblue;
+    color: white;
+    padding: 20px 40px;
+}
+
+.icon-parents{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-container{
+    background-color: aliceblue;
+    color: rgb(118, 118, 251);
+    border: 2px solid ;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 20px 5px;
+}
+
+.icon-container p{
+    font-size: 25px;
+}
+
+.icon{
+    width: 45px;
+}
