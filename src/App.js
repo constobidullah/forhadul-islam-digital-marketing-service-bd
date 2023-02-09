@@ -4,6 +4,7 @@ import BusinessPartner from './components/BusinessPartner/BusinessPartner';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
 import MemorableJourney from './components/MemorableJourney/MemorableJourney';
+import RelyDms from './components/RelyDms/RelyDms';
 import ServiceProvide from './components/ServiceProvide/ServiceProvide';
 import WhoWeAre from './components/WhoWeAre/WhoWeAre';
 
@@ -17,6 +18,7 @@ function App() {
       <ServiceProvide></ServiceProvide>
       <BusinessPartner></BusinessPartner>
       <Advertising></Advertising>
+      <RelyDms></RelyDms>
     </div>
   );
 }
