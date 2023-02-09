@@ -1,11 +1,11 @@
 import React from 'react';
-import photo from '../../images/who2.jpg'
+import photo from '../../images/whoIAM.jpg'
 import './WhoWeAre.css'
 
 const WhoWeAre = () => {
     return (
         <div className='who-we-are-parents'>
-            <h1>Who we are </h1>
+            <h1>Who I Am </h1>
 
             <div className='who-we-are-photo-and-write'>
                 <div className='who-we-are-photo'>

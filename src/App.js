@@ -1,4 +1,5 @@
 import './App.css';
+import Advertising from './components/Advertising/Advertising';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
 import MemorableJourney from './components/MemorableJourney/MemorableJourney';
@@ -13,6 +14,7 @@ function App() {
       <WhoWeAre></WhoWeAre>
       <MemorableJourney></MemorableJourney>
       <ServiceProvide></ServiceProvide>
+      <Advertising></Advertising>
     </div>
   );
 }
