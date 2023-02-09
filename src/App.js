@@ -6,6 +6,7 @@ import MarketingAgency from './components/MarketingAgency/MarketingAgency';
 import MemorableJourney from './components/MemorableJourney/MemorableJourney';
 import RelyDms from './components/RelyDms/RelyDms';
 import ServiceProvide from './components/ServiceProvide/ServiceProvide';
+import SingleRating from './components/SingleRating/SingleRating';
 import WhoWeAre from './components/WhoWeAre/WhoWeAre';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <BusinessPartner></BusinessPartner>
       <Advertising></Advertising>
       <RelyDms></RelyDms>
+      <SingleRating></SingleRating>
     </div>
   );
 }

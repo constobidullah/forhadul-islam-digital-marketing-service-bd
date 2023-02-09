@@ -1,0 +1,33 @@
+.single-rating-parents-container{
+    background-color: white;
+}
+.single-rating-parents-container h1{
+ font-size: 55px;
+ color:rgb(41, 91, 172);
+}
+
+.single-rating-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0px 30px 40px 30px;
+}
+
+.single-rating-item{
+    border: 2px solid ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.star-icon{
+    width: 26px;
+    height: 26px;
+    color: yellowgreen;
+}
+
+
+.single-rating-item p{
+    font-size: 20px;
+    font-weight: 600;
+}
