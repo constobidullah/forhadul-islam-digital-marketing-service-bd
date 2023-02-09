@@ -1,0 +1,29 @@
+.diffrent-container h1{
+    font-size: 62px;
+    color:rgba(42, 146, 226, 0.677);
+}
+.parents-diffrent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 30px;
+}
+.icon-and-header {
+    background-color: whitesmoke;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px lightgray;
+}
+
+.link-icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.diffrent-para p{
+    text-align: left;
+}
