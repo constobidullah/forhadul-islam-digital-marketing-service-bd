@@ -4,6 +4,7 @@ import BusinessPartner from './components/BusinessPartner/BusinessPartner';
 import ContactFrom from './components/ContactFrom/ContactFrom';
 import Diffrent from './components/Diffrent/Diffrent';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
+import HeaderSection from './components/HeaderSection/HeaderSection';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
 import MemorableJourney from './components/MemorableJourney/MemorableJourney';
 import NavigationBar from './components/NavigationBar/NavigationBar';
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <NavigationBar></NavigationBar>
+      <HeaderSection></HeaderSection>
       <GrowMarketing></GrowMarketing>
       <MarketingAgency></MarketingAgency>
       <WhoWeAre></WhoWeAre>
