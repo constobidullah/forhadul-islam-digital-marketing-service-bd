@@ -5,6 +5,7 @@ import Diffrent from './components/Diffrent/Diffrent';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
 import MemorableJourney from './components/MemorableJourney/MemorableJourney';
+import Payment from './components/Payment/Payment';
 import RelyDms from './components/RelyDms/RelyDms';
 import ServiceProvide from './components/ServiceProvide/ServiceProvide';
 import SingleRating from './components/SingleRating/SingleRating';
@@ -18,11 +19,12 @@ function App() {
       <WhoWeAre></WhoWeAre>
       <MemorableJourney></MemorableJourney>
       <ServiceProvide></ServiceProvide>
+      <Diffrent></Diffrent>
       <BusinessPartner></BusinessPartner>
       <Advertising></Advertising>
       <RelyDms></RelyDms>
       <SingleRating></SingleRating>
-      <Diffrent></Diffrent>
+      <Payment></Payment>
     </div>
   );
 }
