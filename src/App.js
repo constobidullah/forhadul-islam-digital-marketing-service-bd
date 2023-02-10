@@ -3,6 +3,7 @@ import Advertising from './components/Advertising/Advertising';
 import BusinessPartner from './components/BusinessPartner/BusinessPartner';
 import ContactFrom from './components/ContactFrom/ContactFrom';
 import Diffrent from './components/Diffrent/Diffrent';
+import Footer from './components/Footer/Footer';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
 import HeaderSection from './components/HeaderSection/HeaderSection';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
@@ -31,6 +32,7 @@ function App() {
       <SingleRating></SingleRating>
       <Payment></Payment>
       <ContactFrom></ContactFrom>
+      <Footer></Footer>
     </div>
   );
 }
