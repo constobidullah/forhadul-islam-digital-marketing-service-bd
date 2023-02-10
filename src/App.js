@@ -6,6 +6,7 @@ import Diffrent from './components/Diffrent/Diffrent';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
 import MemorableJourney from './components/MemorableJourney/MemorableJourney';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 import Payment from './components/Payment/Payment';
 import RelyDms from './components/RelyDms/RelyDms';
 import ServiceProvide from './components/ServiceProvide/ServiceProvide';
@@ -15,6 +16,7 @@ import WhoWeAre from './components/WhoWeAre/WhoWeAre';
 function App() {
   return (
     <div className="App">
+      <NavigationBar></NavigationBar>
       <GrowMarketing></GrowMarketing>
       <MarketingAgency></MarketingAgency>
       <WhoWeAre></WhoWeAre>
