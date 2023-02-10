@@ -1,0 +1,66 @@
+.contact-from-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: #D3E6FD;
+}
+
+.contact-page{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contact-page h2{
+    text-align: left;
+    font-size: 35px;
+    color: cornflowerblue;
+}
+
+.personal-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.styling-box{
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #E8E9FF;
+    color: blue;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:15px;
+}
+
+
+.icon-main-container{
+    background-color: #E8E9FF;
+    margin: 10px;
+    display: grid;
+    grid-area: 1fr;
+    padding-top: 70px;
+}
+
+.single-contact-icon{
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-single{
+    font-size: 70px;
+}
+
+.single-contact-icon a{
+    text-decoration: none;
+}

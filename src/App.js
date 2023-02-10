@@ -1,6 +1,7 @@
 import './App.css';
 import Advertising from './components/Advertising/Advertising';
 import BusinessPartner from './components/BusinessPartner/BusinessPartner';
+import ContactFrom from './components/ContactFrom/ContactFrom';
 import Diffrent from './components/Diffrent/Diffrent';
 import GrowMarketing from './components/GrowMarketing/GrowMarketing';
 import MarketingAgency from './components/MarketingAgency/MarketingAgency';
@@ -25,6 +26,7 @@ function App() {
       <RelyDms></RelyDms>
       <SingleRating></SingleRating>
       <Payment></Payment>
+      <ContactFrom></ContactFrom>
     </div>
   );
 }
