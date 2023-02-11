@@ -13,12 +13,12 @@ const MemorableJourney = () => {
             <div className='icon-parents'>
                 <div className='icon-container'>
                     <BriefcaseIcon className='icon'/>
-                    <h2>22+</h2>
+                    <h2>6+</h2>
                     <p>Years of experience</p>
                 </div>
                 <div className='icon-container'>
                     <UsersIcon className='icon'/>
-                    <h2>3000+</h2>
+                    <h2>300+</h2>
                     <p>Honorable Clients</p>
                 </div>
                 <div className='icon-container'>
@@ -28,7 +28,7 @@ const MemorableJourney = () => {
                 </div>
                 <div className='icon-container'>
                     <GlobeAltIcon className='icon'/>
-                    <h2>86+</h2>
+                    <h2>46+</h2>
                     <p> Countries </p>
                 </div>
             </div>

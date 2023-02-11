@@ -1,22 +1,45 @@
-.header-main-container{
-    background-image: url('../../images/headerBG/onebg.jpg');
+.header-main-container {
+    background-image: url('../../images/banner.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 50vh;
+    margin-bottom: 0;
 }
 
+/* 
 .header-main-container h1{
     color: white;
     font-weight: 800;
     font-size: 63px;
+} */
+
+.started-with-us-button {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.header-main-container button{
+.started-with-us-button button {
     border: none;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 10px 65px;
     font-size: 22px;
     font-weight: 500;
     background-color: rgb(5, 106, 129);
     color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.started-with-us-button button:hover {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 65px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgb(4, 205, 250);
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }

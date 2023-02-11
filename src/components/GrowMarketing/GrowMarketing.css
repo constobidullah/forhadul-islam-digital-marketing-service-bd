@@ -29,6 +29,15 @@
     background-color: rgb(101, 101, 251);
     color: whitesmoke;
 }
+.colsultations:hover{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(149, 73, 248);
+    color: whitesmoke;
+}
 
 .grow-image img{
     width: 700px;

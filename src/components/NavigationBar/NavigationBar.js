@@ -4,7 +4,7 @@ import './NavigationBar.css'
 const NavigationBar = () => {
     return (
         <nav>
-            <h1>Forhadul Agency</h1>
+            <h1>Farhad Digital Marketing Expert</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>

@@ -4,7 +4,7 @@ import './MarketingAgency.css'
 const MarketingAgency = () => {
     return (
         <div className='marketing-agency-parents'>
-            <h1>Google & Facebook Certified Digital Marketing Agency.</h1>
+            <h1>Google & Facebook Certified Digital Marketing Expert.</h1>
             <p>We are Professionals in digital marketing, web designing, web development, and software development services.</p>
 
             <div className='marketing-container'>

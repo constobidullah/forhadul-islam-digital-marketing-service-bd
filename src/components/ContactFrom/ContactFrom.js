@@ -29,15 +29,15 @@ const ContactFrom = () => {
                 <div className='icon-main-container'>
                     <div className='single-contact-icon'>
                         <FontAwesomeIcon icon={faPhone} className="icon-single" />
-                        <a href="tel:+8801409759124">01409759124</a>
+                        <a href="tel:+8801408019222" className='icon-text'>+880 1408019222</a>
                     </div>
                     <div className='single-contact-icon'>
                         <FontAwesomeIcon icon={faMessage} className="icon-single" />
-                        <a href="mailto:seshasi124@gmail.com">seshasi124@gmail.com</a>
+                        <a href="mailto:farhadulislam50508@gmail.com" className='icon-text'> farhadulislam50508@gmail.com</a>
                     </div>
                     <div className='single-contact-icon'>
                         <FontAwesomeIcon icon={faMobileAndroid} className="icon-single" />
-                        <a href="whatsapp://send?phone=01409759124">Chat with me on WhatsApp</a>
+                        <a href="whatsapp://send?phone=+8801408019222" className='icon-text'>Chat with me on WhatsApp</a>
                     </div>
                 </div>
 
