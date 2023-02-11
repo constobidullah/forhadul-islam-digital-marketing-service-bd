@@ -1,15 +1,17 @@
 import React from 'react';
+import logo3 from '../../images/marketing.jpg'
 import './MarketingAgency.css'
 
 const MarketingAgency = () => {
     return (
         <div className='marketing-agency-parents'>
             <h1>Google & Facebook Certified Digital Marketing Expert.</h1>
-            <p>We are Professionals in digital marketing, web designing, web development, and software development services.</p>
+            <p>We are Professionals in Digital marketing, SEO, YouTube Marketing, Google Ads Campaign, Graphic Design and All Social Media promotion Services</p>
 
             <div className='marketing-container'>
-                <div>
-                <iframe className='marketing-video' width="560" height="315" src="https://www.youtube.com/embed/MS9FCDmcRtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div className='marketing-image'>
+                {/* <iframe className='marketing-video' width="560" height="315" src="https://www.youtube.com/embed/MS9FCDmcRtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+                <img src={logo3} alt="" />
                 </div>
                 <div className='marketing-details'>
                     <p>DMS is an energetic, results-oriented advanced showcasing Digital Marketing Agency. We convey end-to-end site plans, unique techniques, and versatile improvement. We offer you the most valuable services that assist you in achieving your goals. </p>

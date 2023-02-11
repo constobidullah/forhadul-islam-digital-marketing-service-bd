@@ -1,6 +1,6 @@
 .marketing-agency-parents{
-    background-color: rgb(5, 156, 243);
-    color: white;
+    background-color: rgb(158, 219, 254);
+    color: black;
     margin-top: 0px;
 }
 
@@ -25,7 +25,12 @@
     border-radius: 5px;
 }
 
+.marketing-image img{
+    width: 570px;
+    border-radius: 10px;
+}
+
 .marketing-details p{
     text-align: left;
-    margin-top: 10px;
+    margin-top: 0;
 }

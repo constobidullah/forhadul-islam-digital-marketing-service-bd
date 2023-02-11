@@ -13,11 +13,17 @@
     font-size: 63px;
 } */
 
-.started-with-us-button {
-    height: 50px;
+/* .started-with-us-button {
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.started-with-us-button h2{
+    font-size: 75px;
+    font-family: Myriad;
+    color: rgb(245, 138, 38);
 }
 
 .started-with-us-button button {
